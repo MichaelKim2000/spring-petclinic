@@ -5,9 +5,9 @@ node {
     }
     
     stage('Build') {
-        //sh './mvnw clean package'
-		echo "test jenkins"
-        sh 'true'
+        sh './mvnw clean package'
+		echo "test jenkins 2"
+        //sh 'true'
     }
     
     stage('Results') {
